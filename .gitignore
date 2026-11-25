@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+__MACOSX/
+.idea/
+.vscode/
+*.bak
+
+# Model đã huấn luyện: tạo lại bằng `python -m src.train`
+# (file .joblib phụ thuộc phiên bản scikit-learn, rf.joblib ~8 MB)
+models/*.joblib
+models/*.pt
+
+# File xuất từ app
+outputs/ranking_*.csv
+outputs/ranking_*.xlsx
